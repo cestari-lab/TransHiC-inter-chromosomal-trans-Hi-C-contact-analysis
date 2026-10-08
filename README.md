@@ -9,6 +9,7 @@ A small, configurable pipeline that answers three questions from Hi-C `.cool` fi
 It was written for *Leishmania* (34–36 chromosomes, no CTCF, few TADs), where trans contacts mostly reflect
 nuclear organisation, but nothing is organism-specific: any genome, any number of samples, any bin size.
 
+Cestari Lab · McGill University · Lissa Cruz-Saavedra
 ```
 .cool files ──► 1 extract ──► 2 enrichment ──► 3 differential ──► 4 candidate bins ──► 5 annotate ──► 6 plots
                 chr×chr        obs vs exp        test vs control     bin-pair level        GFF overlap     heatmaps
